@@ -7,7 +7,7 @@ from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 TOKEN = os.getenv("TOKEN")
 
 # ADMIN ID
-ADMIN_IDS = [6844787168]  # buraya kendi Telegram ID'ni yaz
+ADMIN_IDS = [6844787168, 8898650816, 8613476871, 6652728893, 7388069972, 8764864796, 8682560155, 8775339606, 905117885]  # buraya kendi Telegram ID'ni yaz
 
 # DATABASE
 conn = sqlite3.connect("stok.db", check_same_thread=False)
